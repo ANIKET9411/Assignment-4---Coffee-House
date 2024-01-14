@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(165, 42, 42, 0.2);;
+}
+.navbar{
+    background:url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    background-size: cover;
+    height:320px;
+    width:100%;
+     
+    position:relative;
+}
+input{
+    width:60rem;
+    height:53px;
+    margin:50px 250px;
+    border-radius: 10px;
+    background-color: rgb(117, 35, 35);
+    opacity: 0.9;
+    color:white;
+    padding-left: 5px;
+    border-color: rgb(117, 35, 35);
+    &:active,&:focus{
+        border-color: rgb(117, 35, 35);
+        outline: none;
+    }
+}
+.container{
+    display: flex;
+    height:180px;
+    width:100%;
+    justify-content: space-evenly;
+    padding:30px 0;
+}
+.item{
+    height:180px;
+    width:160px;
+}
+img{
+    position: relative;
+    width:150px;
+    top: 50%;
+     /* right:30%; */
+    height:150px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 7px 7px black;
+}
+img:hover{
+    top: 50%;
+    width:155px;
+    height:155px;
+}
+.item p{
+    text-align: center;
+    z-index: 2;
+}
+.section{
+    color:brown;
+    background-color: rgb(165, 42, 42, 0.3);
+    margin:55px;
+    padding:10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px brown;;
+}
+.section p,h2{
+    padding:15px;
+    margin:3px;
+}
+li{
+
+}
