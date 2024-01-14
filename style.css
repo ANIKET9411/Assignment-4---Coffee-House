@@ -1,12 +1,12 @@
-*{
-    padding:0;
-    margin:0;
-}
+
 
 body{
     background-color: rgb(165, 42, 42, 0.2);
 }
-
+*{
+    padding:0;
+    margin:0;
+}
 .navbar{
     background:url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
     background-size: cover;
