@@ -58,6 +58,7 @@ img:hover{
 .item p{
     text-align: center;
     z-index: 2;
+    padding:15px;
 }
 .section{
     color:brown;
@@ -72,5 +73,6 @@ img:hover{
     margin:3px;
 }
 li{
-
+    margin-left: 20px;
 }
+ 
